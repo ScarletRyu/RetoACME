@@ -23,7 +23,7 @@ li {
   float: left;
   font-family: Source Code Pro;
   color: white;
-  margin-left: 15%;
+  margin-left: 12%;
   transition: 0.75s;
 }
 ul :hover {
