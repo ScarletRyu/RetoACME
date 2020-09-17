@@ -57,9 +57,26 @@ li a {
   border: 2px solid #eee
 }
 
-.reparto,h4{
+.reparto{
   border: 2px solid #eee;
   border-bottom:2px solid #eee;
   margin-left: 50%;
   width: 45%;
+}
+
+.mainCast{
+  width: 20%;
+}
+td{
+  text-align: center;
+}
+footer{
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 1%;
+  text-align: center;
+}
+video{
+  margin-left: 25%
 }
