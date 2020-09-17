@@ -49,22 +49,6 @@ li a {
   float:left;
   margin-left: 2%;
 }
-.content {
-  padding: 0 18px;
-  display: none;
-  background-color: white;
-  overflow: hidden;
-  border: 2px solid #eee
-}
-
-.reparto,h4{
-  border: 2px solid #eee;
-  border-bottom:2px solid #eee;
-  margin-left: 50%;
-  width: 45%;
-}
-
-
 .accordion {
   background-color: #eee;
   color: #444;
@@ -89,3 +73,13 @@ li a {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
+
+.reparto,h4{
+  border: 2px solid #eee;
+  border-bottom:2px solid #eee;
+  margin-left: 50%;
+  width: 45%;
+}
+
+
