@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script type="text/javascript"></script>
   <title>Reto 0 - ACME</title>
   <link href='https://fonts.googleapis.com/css?family=Source Code Pro' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   <link rel="stylesheet" type="text/css" href="style/css.css">
+  
 </head>
 <body>
   <header  id="header">
@@ -27,10 +29,9 @@
   <div id="Temporadas">
     <h1>Seasons</h1>
     <!-- Season 1 -->
-    <div class="title">
-      Season 1
-    </div>
-    <div class="content">
+  
+    <button class="accordion"> Temporada 1</button>
+    <div class="panel">
       <table>
         <tr>
           <td>Minimum Viable Product</td>
@@ -61,10 +62,8 @@
     <!-- Season 1 end -->
 
     <!-- Season 2 -->
-    <div class="title">
-      Season 2
-    </div>
-    <div class="content">
+    <button class="accordion"> Temporada 2</button>
+    <div class="panel">
       <table>
         <tr>
           <td>Sand Hill Shuffle</td>
@@ -101,10 +100,8 @@
     <!-- Season 2 end -->
 
     <!-- Season 3 -->
-    <div class="title">
-      Season 3
-    </div>
-    <div class="content">
+    <button class="accordion"> Temporada 3</button>
+    <div class="panel">
       <table>
         <tr>
           <td>Founder Friendly</td>
@@ -141,10 +138,8 @@
     <!-- Season 3 end -->
 
     <!-- Season 4 -->
-    <div class="title">
-      Season 4
-    </div>
-    <div class="content">
+    <button class="accordion"> Temporada 4</button>
+    <div class="panel">
       <table>
         <tr>
           <td>Success Failure</td>
@@ -181,10 +176,8 @@
     <!-- Season 4 end -->
 
     <!-- Season 5 -->
-    <div class="title">
-      Season 5
-    </div>
-    <div class="content">
+    <button class="accordion"> Temporada 5</button>
+    <div class="panel">
       <table>
         <tr>
           <td>Grow Fast or Die Slow</td>
@@ -215,10 +208,8 @@
     <!-- Season 5 end -->
 
     <!-- Season 6 -->
-    <div class="title">
-      Season 6
-    </div>
-    <div class="content">
+    <button class="accordion"> Temporada 6</button>
+    <div class="panel">
       <table>
         <tr>
           <td>Artificial Lack of Intelligence</td>
@@ -243,57 +234,57 @@
         </tr>
       </table>
     </div>
+<script src="js/acordionscript.js"></script>
     <!-- Season 6 end -->
   </div>
-
   <!-- Cast -->
   <div id="Reparto">
     <h1 class="reparto" style="border: none;">Cast</h1>
     <table class="reparto">
       <tr>
-        <td style="font-weight: bold;">Name</td>
-        <td style="font-weight: bold;">Image</td>
-        <td style="font-weight: bold;">Character</td>
+        <td class="castName" style="font-weight: bold;">Name</td>
+        <td class="castName" style="font-weight: bold;">Image</td>
+        <td class="castName" style="font-weight: bold;">Character</td>
       </tr>
       <tr>
-        <td><a target="blank_" href="https://www.imdb.com/name/nm3042755/?ref_=tt_cl_t1">Thomas Middleditch</a></td>
-        <td><a target="blank_" href="https://www.imdb.com/name/nm3042755/?ref_=tt_cl_t1"><img class="mainCast" src="img/Thomas.jpg"></a></td>
-        <td>Richard Hendricks</td>
+        <td class="castName"><a class="castName" target="blank_" href="https://www.imdb.com/name/nm3042755/?ref_=tt_cl_t1">Thomas Middleditch</a></td>
+        <td class="castName"><a class="castName" target="blank_" href="https://www.imdb.com/name/nm3042755/?ref_=tt_cl_t1"><img class="mainCast" src="img/Thomas.jpg"></a></td>
+        <td class="castName">Richard Hendricks</td>
       </tr>
       <tr>
-        <td><a target="blank_" href="https://www.imdb.com/name/nm3091777/">Josh Brener</a></td>
-        <td><a target="blank_" href="https://www.imdb.com/name/nm3091777/"><img class="mainCast" src="img/Josh.jpg"></a></td>
-        <td>Nelson 'Big Head' Bighetti</td>
+        <td class="castName"><a target="blank_" href="https://www.imdb.com/name/nm3091777/">Josh Brener</a></td>
+        <td class="castName"><a target="blank_" href="https://www.imdb.com/name/nm3091777/"><img class="mainCast" src="img/Josh.jpg"></a></td>
+        <td class="castName">Nelson 'Big Head' Bighetti</td>
       </tr>
       <tr>
-        <td><a target="blank_" href="https://www.imdb.com/name/nm0771414/">Martin Starr</a></td>
-        <td><a target="blank_" href="https://www.imdb.com/name/nm0771414/"><img class="mainCast" src="img/Martin.jpg"></a></td>
-        <td>Bertram Gilfoyle</td>
+        <td class="castName"><a target="blank_" href="https://www.imdb.com/name/nm0771414/">Martin Starr</a></td>
+        <td class="castName"><a target="blank_" href="https://www.imdb.com/name/nm0771414/"><img class="mainCast" src="img/Martin.jpg"></a></td>
+        <td class="castName">Bertram Gilfoyle</td>
       </tr>
       <tr>
-        <td><a target="blank_" href="https://www.imdb.com/name/nm3529685/">Kumail Nanjiani</a></td>
-        <td><a target="blank_" href="https://www.imdb.com/name/nm3529685/"><img class="mainCast" src="img/Kumail.jpg"></a></td>
-        <td>Dinesh Chugtai</td>
+        <td class="castName"><a target="blank_" href="https://www.imdb.com/name/nm3529685/">Kumail Nanjiani</a></td>
+        <td class="castName"><a target="blank_" href="https://www.imdb.com/name/nm3529685/"><img class="mainCast" src="img/Kumail.jpg"></a></td>
+        <td class="castName">Dinesh Chugtai</td>
       </tr>
       <tr>
-        <td><a target="blank_" href="https://www.imdb.com/name/nm1468739/">Amanda Crew</a></td>
-        <td><a target="blank_" href="https://www.imdb.com/name/nm1468739/"><img class="mainCast" src="img/Amanda.jpg"></a></td>
-        <td>Monica Hall</td>
+        <td class="castName"><a target="blank_" href="https://www.imdb.com/name/nm1468739/">Amanda Crew</a></td>
+        <td class="castName"><a target="blank_" href="https://www.imdb.com/name/nm1468739/"><img class="mainCast" src="img/Amanda.jpg"></a></td>
+        <td class="castName">Monica Hall</td>
       </tr>
       <tr>
-        <td><a target="blank_" href="https://www.imdb.com/name/nm2046855/">Zach Woods</a></td>
-        <td><a target="blank_" href="https://www.imdb.com/name/nm2046855/"><img class="mainCast" src="img/Zach.jpg"></a></td>
-        <td>Donald 'Jared' Dunn</td>
+        <td class="castName"><a target="blank_" href="https://www.imdb.com/name/nm2046855/">Zach Woods</a></td>
+        <td class="castName"><a target="blank_" href="https://www.imdb.com/name/nm2046855/"><img class="mainCast" src="img/Zach.jpg"></a></td>
+        <td class="castName">Donald 'Jared' Dunn</td>
       </tr>
       <tr>
-        <td><a target="blank_" href="https://www.imdb.com/name/nm4497202/">Jimmy O. Yang</a></td>
-        <td><a target="blank_" href="https://www.imdb.com/name/nm4497202/"><img class="mainCast" src="img/Jimmy.jpg"></a></td>
-        <td>Jian Yang</td>
+        <td class="castName"><a target="blank_" href="https://www.imdb.com/name/nm4497202/">Jimmy O. Yang</a></td>
+        <td class="castName"><a target="blank_" href="https://www.imdb.com/name/nm4497202/"><img class="mainCast" src="img/Jimmy.jpg"></a></td>
+        <td class="castName">Jian Yang</td>
       </tr>
       <tr>
-        <td><a target="blank_" href="https://www.imdb.com/name/nm2554352/">T.J. Miller</a></td>
-        <td><a target="blank_" href="https://www.imdb.com/name/nm2554352/"><img class="mainCast" src="img/Miller.jpg"></a></td>
-        <td>Erlich Bachman</td>
+        <td class="castName"><a target="blank_" href="https://www.imdb.com/name/nm2554352/">T.J. Miller</a></td>
+        <td class="castName"><a target="blank_" href="https://www.imdb.com/name/nm2554352/"><img class="mainCast" src="img/Miller.jpg"></a></td>
+        <td class="castName">Erlich Bachman</td>
       </tr>
     </table>
   </div>
