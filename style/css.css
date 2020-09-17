@@ -74,7 +74,6 @@ li a {
   transition: max-height 0.2s ease-out;
 }
 
-
 .reparto,h4{
   border: 2px solid #eee;
   border-bottom:2px solid #eee;
@@ -82,4 +81,25 @@ li a {
   width: 45%;
 }
 
+.mainCast{
+  width: 20%;
+}
+.castName,a{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.castName:hover{
+  text-decoration: underline;
+}
+footer{
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 1%;
+  text-align: center;
+}
+video{
+  margin-left: 25%
+}
 
