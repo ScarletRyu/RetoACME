@@ -23,7 +23,7 @@ li {
   float: left;
   font-family: Source Code Pro;
   color: white;
-  margin-left: 12%;
+  margin-left: 10%;
   transition: 0.75s;
 }
 ul :hover {
@@ -81,6 +81,8 @@ li a:hover {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
+
 
 .reparto,h4{
   border: 2px solid #eee;
