@@ -1,19 +1,28 @@
 // ----------------------DIVS-ACORDEON-----------------------
-var acc = document.getElementsByClassName("accordion");
-var i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
+var coll = document.getElementsByClassName("accordion");
+for (var i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function(evnt) {
+    const currClassList = evnt.target.classList;
+    if (currClassList.contains('collapsed')) {
+        evnt.target.classList.remove("collapsed");
+        var content = evnt.target.nextElementSibling;
+        content.style.maxHeight = null;
     } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
+      for (var j = 0; j < coll.length; j++) {
+           coll[j].classList.remove("collapsed")
+           coll[j].nextElementSibling.style.maxHeight = null;
+      }
+      this.classList.toggle("collapsed");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    }
   });
 }
-
 
 
 
