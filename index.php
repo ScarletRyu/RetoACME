@@ -18,9 +18,8 @@
       <li><a href="#Descripcion">Description</a></li>
       <li><a href="#Temporadas">Seasons</a></li>
       <li><a href="#Reparto">Cast</a></li>
-      <li><a href="#Merch">Merch</a></li>
-      <li><p id="hora_fecha"> </p></li>
-      
+      <li><a href="merch.php">Merch</a></li>
+      <li><p id="hora_fecha"></p></li>
 
     </ul>
   </nav>
@@ -70,34 +69,34 @@
     <div class="panel">
       <table>
         <tr>
-          <td>Sand Hill Shuffle</td>
+          <td>1. Sand Hill Shuffle</td>
         </tr>
         <tr>
-          <td>Runaway Devaluation</td>
+          <td>2. Runaway Devaluation</td>
         </tr>
         <tr>
-          <td>Bad Money</td>
+          <td>3. Bad Money</td>
         </tr>
         <tr>
-          <td>The Lady</td>
+          <td>4. The Lady</td>
         </tr>
         <tr>
-          <td>Server Space</td>
+          <td>5. Server Space</td>
         </tr>
         <tr>
-          <td>Homicide</td>
+          <td>6. Homicide</td>
         </tr>
         <tr>
-          <td>Adult Content</td>
+          <td>7. Adult Content</td>
         </tr>
         <tr>
-          <td>White Hat/Black Hat</td>
+          <td>8. White Hat/Black Hat</td>
         </tr>
         <tr>
-          <td>Binding Arbitration</td>
+          <td>9. Binding Arbitration</td>
         </tr>
         <tr>
-          <td>Two Days of the Condor</td>
+          <td>10. Two Days of the Condor</td>
         </tr>
       </table>
     </div>
@@ -108,34 +107,34 @@
     <div class="panel">
       <table>
         <tr>
-          <td>Founder Friendly</td>
+          <td>1. Founder Friendly</td>
         </tr>
         <tr>
-          <td>Two in the Box</td>
+          <td>2. Two in the Box</td>
         </tr>
         <tr>
-          <td>Meinertzhagen's Haversack</td>
+          <td>3. Meinertzhagen's Haversack</td>
         </tr>
         <tr>
-          <td>Maleant Data Systems Solutions</td>
+          <td>4. Maleant Data Systems Solutions</td>
         </tr>
         <tr>
-          <td>The Empty Chair</td>
+          <td>5. The Empty Chair</td>
         </tr>
         <tr>
-          <td>Bachmanity Insanity</td>
+          <td>6. Bachmanity Insanity</td>
         </tr>
         <tr>
-          <td>To Build a Better Beta</td>
+          <td>7. To Build a Better Beta</td>
         </tr>
         <tr>
-          <td>Bachman's Earnings Over-Ride</td>
+          <td>8. Bachman's Earnings Over-Ride</td>
         </tr>
         <tr>
-          <td>Daily Active Users</td>
+          <td>9. Daily Active Users</td>
         </tr>
         <tr>
-          <td>The Uptick</td>
+          <td>10. The Uptick</td>
         </tr>
       </table>
     </div>
@@ -146,34 +145,34 @@
     <div class="panel">
       <table>
         <tr>
-          <td>Success Failure</td>
+          <td>1. Success Failure</td>
         </tr>
         <tr>
-          <td>Terms of Service</td>
+          <td>2. Terms of Service</td>
         </tr>
         <tr>
-          <td>Intellectual Property</td>
+          <td>3. Intellectual Property</td>
         </tr>
         <tr>
-          <td>Teambuilding Exercise</td>
+          <td>4. Teambuilding Exercise</td>
         </tr>
         <tr>
-          <td>The Blood Boy</td>
+          <td>5. The Blood Boy</td>
         </tr>
         <tr>
-          <td>Customer Service</td>
+          <td>6. Customer Service</td>
         </tr>
         <tr>
-          <td>The Patent Troll</td>
+          <td>7. The Patent Troll</td>
         </tr>
         <tr>
-          <td>The Keenan Vortex</td>
+          <td>8. The Keenan Vortex</td>
         </tr>
         <tr>
-          <td>Hooli-Con</td>
+          <td>9. Hooli-Con</td>
         </tr>
         <tr>
-          <td>Server Error</td>
+          <td>10. Server Error</td>
         </tr>
       </table>
     </div>
@@ -184,28 +183,28 @@
     <div class="panel">
       <table>
         <tr>
-          <td>Grow Fast or Die Slow</td>
+          <td>1. Grow Fast or Die Slow</td>
         </tr>
         <tr>
-          <td>Reorientation</td>
+          <td>2. Reorientation</td>
         </tr>
         <tr>
-          <td>Chief Operating Officer</td>
+          <td>3. Chief Operating Officer</td>
         </tr>
         <tr>
-          <td>Tech Evangelist</td>
+          <td>4. Tech Evangelist</td>
         </tr>
         <tr>
-          <td>Facial Recognition</td>
+          <td>5. Facial Recognition</td>
         </tr>
         <tr>
-          <td>Artificial Emotional Intelligence</td>
+          <td>6. Artificial Emotional Intelligence</td>
         </tr>
         <tr>
-          <td>Initial Coin Offering</td>
+          <td>7. Initial Coin Offering</td>
         </tr>
         <tr>
-          <td>Fifty-One Percent</td>
+          <td>8. Fifty-One Percent</td>
         </tr>
       </table>
     </div>
@@ -216,25 +215,25 @@
     <div class="panel">
       <table>
         <tr>
-          <td>Artificial Lack of Intelligence</td>
+          <td>1. Artificial Lack of Intelligence</td>
         </tr>
         <tr>
-          <td>Blood Money</td>
+          <td>2. Blood Money</td>
         </tr>
         <tr>
-          <td>Hooli Smokes!</td>
+          <td>3. Hooli Smokes!</td>
         </tr>
         <tr>
-          <td>Maximizing Alphaness</td>
+          <td>4. Maximizing Alphaness</td>
         </tr>
         <tr>
-          <td>Tethics</td>
+          <td>5. Tethics</td>
         </tr>
         <tr>
-          <td>RussFest</td>
+          <td>6. RussFest</td>
         </tr>
         <tr>
-          <td>Exit Event</td>
+          <td>7. Exit Event</td>
         </tr>
       </table>
     </div>
@@ -295,7 +294,13 @@
   </div>
 
   <footer style="width: 98%">
-  	Copyright &copy
+  	Copyright &copy <br>
+    <p><?php echo date ("Y/m/d");
+      ?>
+    </p>
+    <p><?php echo date ("H:i:s");
+      ?>
+    </p>
   </footer>
 </body>
 </html>
