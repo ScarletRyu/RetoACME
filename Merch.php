@@ -5,7 +5,7 @@
         <tr>
           <td>
          <div class="producto">
-           <a href="https://www.google.com"><img  class="img_producto" src="./img/merch/camsieta.png"></a>
+           <a href="https://www.google.com"><img  class="img_producto" src="./img/merch/camiseta.png"></a>
            <p class="desc_merchandaising">Camiseta</p>
            <p class="precio_merchandaising">10 €</p>
          </div>
