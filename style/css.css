@@ -4,6 +4,7 @@
 	font-family: Roboto;
   scroll-behavior: smooth;
 }
+
 header{
 	width: 100%;
 }
@@ -83,8 +84,6 @@ li a:hover {
   transition: max-height 0.2s ease-out;
 }
 
-
-
 .reparto,h4{
   border: 2px solid #eee;
   border-bottom:2px solid #eee;
@@ -138,7 +137,7 @@ video{
   color: white;
   border-bottom: 1px solid black;
   width: 100%;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 .desc_merchandaising:hover, .precio_merchandaising:hover{
   border-top: 1px solid black;
@@ -151,4 +150,9 @@ video{
 #bottomLinks{
   margin-top: 75%;
 }
+
+.precio_merchandaising:hover:before {
+  content:"Out of Stock! - "
+}
+
 
